@@ -3,7 +3,7 @@
 module.exports = ['$stateProvider', '$urlRouterProvider', routerConfig];
 
 function routerConfig($stateProvider, $urlRouterProvider) {
-  $urlRouterProvider.when('', '/main');
+  $urlRouterProvider.when('#!', '/main');
   $urlRouterProvider.when('/', '/main');
 
   let states = [

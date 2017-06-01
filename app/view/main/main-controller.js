@@ -1,6 +1,10 @@
 'use strict';
 
-require('./_main.scss');
+const angular = require('angular');
+
+require('./_mainpage.scss');
+
+angular.module('portfolio').controller('Maincontroller', ['$scope', function($scope) {}])
 
 module.exports = ['$log', '$location', '$rootScope', MainController];
 

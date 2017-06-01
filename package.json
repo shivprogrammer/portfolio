@@ -2,9 +2,13 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Portfolio Housing my Professional Work",
-  "main": "karma.config.js",
+  "main": "entry.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "./node_modules/webpack/bin/webpack.js",
+    "watch": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot",
+    "lint": "./node_modules/eslint/bin/eslint.js **/*.js",
+    "test": "./node_modules/karma/bin/karma start --single-run",
+    "test-watch": "./node_modules/karma/bin/karma start"
   },
   "repository": {
     "type": "git",
@@ -48,6 +52,7 @@
     "webpack": "^2.6.1"
   },
   "devDependencies": {
+    "angular-route": "^1.6.4",
     "webpack-dev-server": "^2.4.5"
   }
 }
