@@ -1,5 +1,5 @@
 body {
-  background-image: url(http://i.imgur.com/IXjJh6F.jpg);
+  background: url(http://i.imgur.com/IXjJh6F.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -32,7 +32,13 @@ p {
 }
 
 .projects {
+  margin: 1vw;
   h1 {
     text-align: center;
   }
+}
+
+.img-container {
+  margin: auto;
+  width: 30%;
 }
