@@ -1,7 +1,26 @@
+body {
+  background-image: url(http://i.imgur.com/1rR5KLg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h1 {
   font-size: 4vw;
 }
 
 h2 {
   font-size: 3vw;
+}
+
+p {
+  color: white;
+}
+
+.left {
+  float: left;
+  clear: right;
+}
+
+.intro {
+  float: right;
 }
