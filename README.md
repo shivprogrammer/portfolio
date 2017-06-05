@@ -1,2 +1,2 @@
-# portfolio
-Portfolio Housing my Professional Work
+# Portfolio
+Professional portfolio housing my programming projects

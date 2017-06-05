@@ -4,46 +4,17 @@ require('./_navbar.scss');
 
 module.exports = {
   template: require('./navbar.html'),
-  controller: ['$log', '$location', '$rootScope', 'userService', NavbarController],
+  controller: ['$log', '$location', '$rootScope', NavbarController],
   controllerAs: 'navBarCtrl'
 };
 
-function NavbarController($log, $location, $rootScope, userService) {
+function NavbarController($log, $location, $rootScope) {
   $log.debug('NavbarController');
-
-  this.checkPath = function() {
-    let path = $location.path();
-    if(path === '/join') {
-      this.hideButtons = true;
-    }
-
-    if( path !== '/join') {
-      this.hideButtons = false;
-      userService.getToken()
-      .catch( () => {
-        $location.url('/join#signup');
-      });
-    }
-  };
-
-  $rootScope.$on('$locationChangeSuccess', () => {
-    this.checkPath();
-  });
-
-  this.logout = function() {
-    $log.debug('navBarCtrl.logout');
-
-    this.hideButtons = true;
-    userService.logout()
-    .then( () => {
-      $location.url('/');
-    });
-  };
 
   this.routes = [
     {
-      name: 'Main',
-      url: '/#!/main'
+      name: 'Home',
+      url: '/#!/home'
     }
   ];
 }

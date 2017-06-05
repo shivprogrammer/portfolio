@@ -45,18 +45,10 @@ module.exports = {
         test: /\.png$/,
         loader: 'url-loader'
       },
-      // {
-      //   test: /\.png$/,
-      //   loader: 'html-loader'
-      // },
       {
         test: /\.jpg$/,
         loader: 'url-loader'
       }
-      // {
-      //   test: /\.jpg$/,
-      //   loader: 'html-loader'
-      // },
     ]
   }
 };
