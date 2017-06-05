@@ -5,19 +5,17 @@
   height: 10vw;
   position: relative;
   overflow: visible;
-  background-image: url(http://i.imgur.com/QsQI2L5.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: 30% 90%;
-  background-color: white;
+  background-color: black;
 
   h1 {
+    color: white;
     float: right;
     clear: both;
     margin: 1vw;
   }
 
   h2 {
+    color: white;
     font-size: 2vw;
     float: right;
     clear: both;
