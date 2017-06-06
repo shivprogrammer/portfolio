@@ -2,44 +2,50 @@
 
 .navbar {
   width: 100%;
-  height: 12vw;
+  height: 14vw;
   position: relative;
   overflow: visible;
+  background-color: black;
 }
 
 .shiv-nav {
-  width: 40%;
-
   .shiv-pic {
     position: absolute;
     float: left;
     height: 75%;
-    top: 1vw;
-    margin-bottom: 1.5vw;
-    margin-left: 1.5vw;
+    top: .7vw;
+    margin-left: .7vw;
     border: 3px solid black;
     border-radius: 50%;
   }
 
   h1 {
+    font-size: 3vw;
     position: absolute;
     float: left;
-    margin-left: 2.2vw;
-    margin-top: 10vw;
+    margin-left: 3.1vw;
+    margin-top: 11vw;
   }
 }
 
 .info-nav {
+  float: right;
+  position: absolute;
+  width: 60%;
+  background-color: black;
+  left: 39.8vw;
+
   h1 {
     float: right;
     clear: both;
     margin: 1vw;
+    top: 1vw;
   }
 
   h2 {
     float: right;
     clear: both;
     margin: 1vw;
-    margin-top: 2vw;
+    margin-top: 5vw;
   }
 }

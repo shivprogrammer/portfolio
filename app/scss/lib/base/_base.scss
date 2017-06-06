@@ -1,11 +1,11 @@
 body {
-  background: url(http://i.imgur.com/IXjJh6F.jpg);
-  background-repeat: no-repeat;
+  background: url(http://i.imgur.com/1rR5KLg.jpg);
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
   background-size: cover;
 }
 
 h1 {
-
   font-size: 4vw;
   color: white;
 }
@@ -33,12 +33,18 @@ p {
 
 .projects {
   margin: 1vw;
+
   h1 {
     text-align: center;
+    margin-bottom: .3vw;
   }
 }
 
 .img-container {
   margin: auto;
   width: 30%;
+}
+
+.project-img {
+  border: 3px solid black;
 }
