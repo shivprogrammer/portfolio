@@ -1,1 +1,27 @@
 @import "../scss/lib/theme/vars";
+
+.linkedin {
+	background: url('imgs/social sprites.png') no-repeat -398px -54px;
+	width: 33px;
+	height: 33px;
+}
+
+// linkedin hover
+.linkedin:hover {
+	background: url('imgs/social sprites.png') no-repeat -398px -129px;
+	width: 33px;
+	height: 33px;
+}
+
+.github {
+	background: url('imgs/social sprites.png') no-repeat -456px -54px;
+	width: 32px;
+	height: 33px;
+}
+
+// github hover
+.github:hover {
+	background: url('imgs/social sprites.png') no-repeat -456px -129px;
+	width: 32px;
+	height: 33px;
+}
