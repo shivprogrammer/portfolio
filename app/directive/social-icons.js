@@ -1,6 +1,6 @@
 'use strict';
 
-require('./social-icons.scss');
+require('./_social-icons.scss');
 
 module.exports = function() {
   return {
