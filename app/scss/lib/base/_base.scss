@@ -18,7 +18,9 @@ h2 {
 // for index page //
 
 .img-container {
-  margin: auto;
+  margin-left: 5.3vw;
+  margin-right: 5.3vw;
+  float: left;
   position: relative;
   margin-top: 50px;
   width: 500px;
@@ -55,6 +57,7 @@ h2 {
 }
 
 .project-pic {
+  // margin-right: 8vw;
   position: absolute;
   width: 500px;
   height: 300px;
