@@ -1,0 +1,74 @@
+
+.img-container {
+  margin-left: 5.3vw;
+  margin-right: 5.3vw;
+  float: left;
+  position: relative;
+  margin-top: 50px;
+  width: 500px;
+  height: 300px;
+  overflow: visible;
+
+  .overlay {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: background 0.5s ease;
+  }
+
+  p {
+    font-weight: 700;
+    color: white;
+  }
+}
+
+.img-container:hover {
+  .overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .title {
+    top: 90px;
+  }
+
+  .button {
+    opacity: 1;
+  }
+}
+
+.project-pic {
+  // margin-right: 8vw;
+  position: absolute;
+  width: 500px;
+  height: 300px;
+}
+
+.title {
+  position: absolute;
+  width: 500px;
+  top: 120px;
+  font-size: 30px;
+  text-align: center;
+  z-index: 1;
+  transition: top .5s ease;
+}
+
+.button {
+  position: absolute;
+  width: 500px;
+  top: 180px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+
+  a {
+    width: 200px;
+    padding: 10px 40px;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    z-index: 1;
+  }
+}
